@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    height: 10%;
+    display: flex;
+    background-color: rgb(245, 246, 240);
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(0,0,0.1);
+
+}
+
+/* left section styling*/
+.left-section {
+    background-color: #7280ac;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-right: 8px solid #a3a1a1;
+}
+
+.profile-picture {
+    width: 220px;
+    height: 220px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #fbf9f9;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    width: 580px;
+    font-size:35px;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+h3 {
+    background-color: rgb(245, 246, 240);
+    width: 580px;
+    font-size: 24px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #7487af;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin:5px 0;
+    font-size: 24px;
+}
+
+/* right section styling*/
+
+.right-section {
+    font-family: Arial, sans-serif;
+    width: 1000px;
+    padding: 20px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #7487af;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: #d5ddee;
+}
+
+p {
+    font-size: 22px;
+    width: 600px;
+}
